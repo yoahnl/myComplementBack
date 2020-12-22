@@ -62,6 +62,34 @@
     "boarded": {
       "type": "boolean",
       "default": false
+    },
+    "age": {
+      "type": "integer"
+    },
+    "weight": {
+      "type": "integer"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female"
+      ]
+    },
+    "Height": {
+      "type": "integer"
+    },
+    "workout": {
+      "type": "enumeration",
+      "enum": [
+        "LessThanOneW",
+        "OneW",
+        "TwoW",
+        "ThreeW",
+        "FourW",
+        "FiveW",
+        "MoreThanFiveW"
+      ]
     }
   }
 }
