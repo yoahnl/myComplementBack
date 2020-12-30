@@ -90,6 +90,14 @@
         "FiveW",
         "MoreThanFiveW"
       ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "low",
+        "medium",
+        "hight"
+      ]
     }
   }
 }

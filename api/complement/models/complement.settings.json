@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "complements",
+  "info": {
+    "name": "complement",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "low",
+        "medium",
+        "hight"
+      ]
+    },
+    "image": {
+      "type": "string"
+    },
+    "dosage": {
+      "type": "integer"
+    },
+    "dosage_description": {
+      "type": "text"
+    }
+  }
+}
